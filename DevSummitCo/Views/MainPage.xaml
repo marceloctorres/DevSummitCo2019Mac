@@ -5,6 +5,7 @@
              xmlns:bh="clr-namespace:EsriCo.ArcGISRuntime.Xamarin.Forms.Behaviors;assembly=EsriCo.ArcGISRuntime.Xamarin.Forms"
              xmlns:cv="clr-namespace:EsriCo.ArcGISRuntime.Xamarin.Forms.Converters;assembly=EsriCo.ArcGISRuntime.Xamarin.Forms"
              xmlns:prismBh="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+
              x:Class="DevSummitCo.Views.MainPage"
              Title="{Binding Title}">
   <ContentPage.Padding>
