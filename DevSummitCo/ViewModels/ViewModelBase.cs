@@ -1,4 +1,5 @@
-﻿using Prism.Mvvm;using Prism.Navigation;
+using Prism.Mvvm;
+using Prism.Navigation;
 
 namespace DevSummitCo.ViewModels
 {
@@ -37,4 +38,5 @@ namespace DevSummitCo.ViewModels
     {
 
     }
-  }}
+  }
+}
