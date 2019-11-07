@@ -5,11 +5,11 @@ using Xamarin.Forms;
 
 namespace DevSummitCo.Views
 {
-  public partial class MainPage : ContentPage
-  {
-    public MainPage()
-    {
-      InitializeComponent();
-    }
-  }
+	public partial class MainPage : ContentPage
+	{
+		public MainPage()
+		{
+			InitializeComponent();
+		}
+	}
 }
