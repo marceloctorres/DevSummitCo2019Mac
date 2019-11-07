@@ -13,7 +13,12 @@
     <PackageReference Include="EsriCo.ArcGISRuntime.Xamarin.Forms" Version="1.0.8" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>
