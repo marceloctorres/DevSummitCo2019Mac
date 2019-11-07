@@ -1,4 +1,12 @@
-﻿using System.Linq;using System.Windows.Input;using Esri.ArcGISRuntime.Geometry;using Esri.ArcGISRuntime.Mapping;using Esri.ArcGISRuntime.Symbology;using Esri.ArcGISRuntime.UI;using Prism.Commands;using Prism.Navigation;using Xamarin.Forms;
+using System.Linq;
+using System.Windows.Input;
+using Esri.ArcGISRuntime.Geometry;
+using Esri.ArcGISRuntime.Mapping;
+using Esri.ArcGISRuntime.Symbology;
+using Esri.ArcGISRuntime.UI;
+using Prism.Commands;
+using Prism.Navigation;
+using Xamarin.Forms;
 
 namespace DevSummitCo.ViewModels
 {
@@ -79,7 +87,10 @@ namespace DevSummitCo.ViewModels
       Title = "Demo Mac Nugets EsriDevSummit Colombia";
 
       Map = new Map(Basemap.CreateStreets());
-      GraphicsOverlayCollection = new GraphicsOverlayCollection()            {                new GraphicsOverlay() { Id = "Hotel Cosmos 100"},                new GraphicsOverlay() { Id = "Eventos"}
+      GraphicsOverlayCollection = new GraphicsOverlayCollection()
+            {
+                new GraphicsOverlay() { Id = "Hotel Cosmos 100"},
+                new GraphicsOverlay() { Id = "Eventos"}
             };
       CentralPoint = new MapPoint(-74.054424, 4.685715,
           SpatialReferences.Wgs84);
@@ -182,4 +193,5 @@ namespace DevSummitCo.ViewModels
       NewViewpoint = new Viewpoint(CentralPoint, 5000);
     }
 
-  }}
+  }
+}
