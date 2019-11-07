@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <ReleaseVersion>1.0.0.0</ReleaseVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,10 +16,5 @@
   <ItemGroup>
     <Folder Include="ViewModels\" />
     <Folder Include="Views\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="Views\MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
 </Project>
