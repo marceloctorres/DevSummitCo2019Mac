@@ -76,7 +76,7 @@ namespace DevSummitCo.ViewModels
         public MainPageViewModel(INavigationService navigationService)
                       : base(navigationService)
         {
-            Title = "Demo Nugets EsriDevSummit Colombia";
+            Title = "Demo Mac Nugets EsriDevSummit Colombia";
 
             Map = new Map(Basemap.CreateStreets());
             GraphicsOverlayCollection = new GraphicsOverlayCollection()            {                new GraphicsOverlay() { Id = "Hotel Cosmos 100"},                new GraphicsOverlay() { Id = "Eventos"}
